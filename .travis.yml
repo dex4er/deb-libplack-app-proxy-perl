@@ -3,7 +3,7 @@ before_install:
   - sudo apt-get update -qq
 install:
   - sudo apt-get install -qq git-buildpackage
-  - sudo apt-get install -qq debhelper dh-autoreconf
+  - sudo apt-get install -qq debhelper libanyevent-http-perl libhttp-message-perl libplack-perl libtest-requires-perl libtest-tcp-perl libwww-perl perl
 before_script:
   - git fetch origin +upstream:upstream
   - git fetch origin +pristine-tar:pristine-tar

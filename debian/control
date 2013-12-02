@@ -2,14 +2,13 @@ Source: libplack-app-proxy-perl
 Section: perl
 Priority: optional
 Maintainer: Piotr Roszatycki <dexter@debian.org>
-Build-Depends: debhelper (>= 9.20120312)
+Build-Depends: debhelper (>= 9)
 Build-Depends-Indep: libanyevent-http-perl (>= 1.44),
  libhttp-message-perl,
- libplack-perl (>= 1.0013),
+ libplack-perl,
  libtest-requires-perl,
  libtest-tcp-perl,
- libwww-perl,
- perl (>= 5.15.2)
+ libwww-perl
 Standards-Version: 3.9.5
 Homepage: https://metacpan.org/release/Plack-App-Proxy
 

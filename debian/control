@@ -18,9 +18,9 @@ Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libplack-app-proxy-perl.git
 Package: libplack-app-proxy-perl
 Architecture: all
 Depends: ${misc:Depends}, ${perl:Depends},
- libanyevent-http-perl (>= 1.44),
+ libanyevent-http-perl,
  libhttp-message-perl,
- libplack-perl (>= 1.0013),
+ libplack-perl,
  libwww-perl
 Description: Plack::App::Proxy - middleware-aware proxy application for Plack
  A streaming capable proxy for Plack.

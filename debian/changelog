@@ -1,5 +1,5 @@
 libplack-app-proxy-perl (0.29-1) unstable; urgency=low
 
-  * Initial Release.
+  * Initial Release. Closes: #731183.
 
  -- Piotr Roszatycki <dexter@debian.org>  Mon, 2 Dec 2013 18:18:48 +0100

@@ -1,7 +1,8 @@
 Source: libplack-app-proxy-perl
 Section: perl
 Priority: optional
-Maintainer: Piotr Roszatycki <dexter@debian.org>
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Piotr Roszatycki <dexter@debian.org>
 Build-Depends: debhelper (>= 9)
 Build-Depends-Indep: libanyevent-http-perl (>= 1.44),
  libhttp-message-perl,
@@ -12,7 +13,7 @@ Build-Depends-Indep: libanyevent-http-perl (>= 1.44),
 Standards-Version: 3.9.5
 Homepage: https://metacpan.org/release/Plack-App-Proxy
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libplack-app-proxy-perl.git
-Vcs-Git: https://alioth.debian.org/anonscm/git/pkg-perl/packages/libplack-app-proxy-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libplack-app-proxy-perl.git
 
 Package: libplack-app-proxy-perl
 Architecture: all

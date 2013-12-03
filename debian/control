@@ -11,6 +11,8 @@ Build-Depends-Indep: libanyevent-http-perl (>= 1.44),
  libwww-perl
 Standards-Version: 3.9.5
 Homepage: https://metacpan.org/release/Plack-App-Proxy
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libplack-app-proxy-perl.git
+Vcs-Git: https://alioth.debian.org/anonscm/git/pkg-perl/packages/libplack-app-proxy-perl.git
 
 Package: libplack-app-proxy-perl
 Architecture: all
@@ -19,7 +21,9 @@ Depends: ${misc:Depends}, ${perl:Depends},
  libhttp-message-perl,
  libplack-perl (>= 1.0013),
  libwww-perl
-Description: proxy requests
- Plack::Middleware::Proxy::LoadBalancer allow you to define several backends.
+Description: Plack::App::Proxy - middleware-aware proxy application for Plack
+ A streaming capable proxy for Plack.
  .
- This description was automagically extracted from the module by dh-make-perl.
+ This application is just like a normal PSGI application and is middleware
+ aware, which means you can modify proxy requests (and responses) using Plack
+ middleware stack.

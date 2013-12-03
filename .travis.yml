@@ -15,4 +15,4 @@ after_success:
 branches:
   only:
     - master
-    - saucy
+    - precise
